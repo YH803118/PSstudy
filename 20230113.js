@@ -2,7 +2,6 @@
 
 function solution(ingredient) {
   var answer = 0;
-  var check = 0;
   const length = ingredient.length;
 
   let table = [ingredient[0], ingredient[1], ingredient[2]];
@@ -15,7 +14,8 @@ function solution(ingredient) {
     }
     i++;
   }
-
+  const arr = "1234";
+  arr.indexOf;
   return answer;
 }
 
