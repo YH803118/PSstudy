@@ -11,7 +11,6 @@ function solution(board, moves) {
     for (var i = log[move]; i < board.length; i++) {
       var item = board[i][move];
       if (item > 0) {
-        // board[i][move] = 0;
         if (storage[storage.length - 1] === item) {
           storage.pop();
           answer++;
